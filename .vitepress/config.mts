@@ -26,8 +26,8 @@ interface ThemeConfig {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme<ThemeConfig>({
-  title: "暮冬Theme",
-  description: "主题开发",
+  title: "暮冬拾柒",
+  description: "全栈云开发工程师",
   themeConfig: {
     profile: {
       avatar: "https://s2.loli.net/2024/06/26/hpinJ6Fb9UIZTCA.jpg",
