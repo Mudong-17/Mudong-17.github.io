@@ -1,0 +1,22 @@
+{
+  "name": "mudong-17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  },
+  "dependencies": {
+    "@tabler/icons-webfont": "^3.7.0",
+    "dayjs": "^1.11.11",
+    "vue": "^3.4.30"
+  }
+}
