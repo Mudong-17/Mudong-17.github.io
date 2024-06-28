@@ -8,6 +8,9 @@ cover: https://qiniu.onion17.com/images/2024/06/26/04-38-45-6f61827dc31bea579799
 author:
   name: 暮冬拾柒
   avatar: https://s2.loli.net/2024/06/26/hpinJ6Fb9UIZTCA.jpg
+next:
+  text: "编辑器开发 Flutter 实用技巧"
+  link: "/Notes/Flutter/ide"
 ---
 
 # 使用 FVM 管理 Flutter 版本
