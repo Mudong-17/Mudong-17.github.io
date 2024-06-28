@@ -272,8 +272,8 @@
   min-width: 6rem
 }
 
-.max-w-32 {
-  max-width: 8rem
+.max-w-96 {
+  max-width: 24rem
 }
 
 .flex-none {
