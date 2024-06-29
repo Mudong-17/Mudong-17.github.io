@@ -13,8 +13,6 @@ next:
   link: "/Notes/Flutter/ide"
 ---
 
-# 使用 FVM 管理 Flutter 版本
-
 ## 什么是 FVM
 
 `FVM` 是一个为 `Flutter` 开发的版本管理工具，它允许你在同一台机器上安装和使用多个 `Flutter` 版本。`FVM` 提供了一种简单的方式来切换项目之间的 `Flutter` 版本，无需重新下载或配置。
