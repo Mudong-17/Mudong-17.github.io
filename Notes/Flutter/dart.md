@@ -11,6 +11,9 @@ author:
 prev:
   text: "编辑器开发 Flutter 实用技巧"
   link: "/Notes/Flutter/ide"
+next:
+  text: "Dart 面向对象"
+  link: "/Notes/Flutter/oop"
 ---
 
 ## 基础数据类型
@@ -19,10 +22,19 @@ prev:
 
 ```dart [数字类型]
 void main() {
+  // num 是数字类型的父类
+  num num1 = -1.0;
+  num num2 = 2;
   // 整型
   int age = 2;
-  // 浮点型
+  // 浮点型 双精度
   double weight = 4.5;
+
+  // 求绝对值
+  print(num1.abs());
+  // 数值转换
+  print(num1.toInt()); // 转换为int -> 1.0
+  print(num2.toDouble()) // 转换为double -> 2.0
 }
 ```
 
@@ -34,6 +46,17 @@ void main() {
 
   String output = '$a 是一个整数';
   print(output) // -> 1 是一个整数
+
+  String str1 = '字符串', str2 = "双引号";
+  // 字符串拼接
+  String srt3 = 'str1:$str1 srt2:$str2';
+  String srt4 = 'srt1:' + str1 + ' str2' + str2;
+
+  // 字符串常用方法
+  // 字符串截取
+  String str5 = '常用数据类型，请看控制台输出';
+  print(str5.substring(1,5)) // 1 -> 开始位置，5 -> 结束位置不包含 ： 用数据类
+  print(str5.indexOf('类型')) // 获取指定字符串位置 ： 4
 }
 
 ```
@@ -44,6 +67,86 @@ void main() {
   bool flag = true;
 
   bool free = 0.9 < 1.1;
+
+  bool success = true, fail = false;
+}
+
+```
+
+```dart [List 集合]
+
+void main() {
+  // List 集合
+  List list = [1, 2, 3, '集合'];
+  // 指定范型
+  List<int> list1 = [1, 2, 3, 4, 5];
+  List<String> list2 = ['a', 'b', 'c', 'd', 'e'];
+
+  // List 常用方法
+  // 获取长度
+  print(list.length); // 5
+  // 获取指定位置元素
+  print(list[0]); // 1
+  // 添加元素
+  list.add(6);
+  // 添加多个元素
+  list.addAll([7, 8, 9]);
+  // 删除指定下标元素
+  list.removeAt(0);
+  // 删除指定范围元素 -> 从索引 0 开始删除 2 个元素
+  list.removeRange(0, 2);
+  // 删除指定元素
+  list.remove(3);
+  // 删除最后一个元素
+  list.removeLast();
+  // 删除所有元素
+  list.clear();
+
+  // 集合的生成函数
+  List list4 = List.generate(5, (index) => index * 2); // [0, 2, 4, 6, 8]
+
+  // 遍历集合的方式
+  // for 循环
+  for (int i = 0; i < list4.length; i++) {
+    print(list4[i]);
+  }
+  // for in
+  for(var o in list4) {
+    print(o);
+  }
+  // forEach
+  list4.forEach((element) {
+    print(element);
+  });
+}
+
+```
+
+```dart [Map 集合]
+// Map 是key-value 键值对集合, key 和 value 可以是任意类型, key 是唯一的, 如果 key 重复，后面的会覆盖前面的
+void main() {
+  Map profile = {
+    'name': 'Tom',
+    'age': 18,
+  };
+  // 添加元素
+  profile['sex'] = '男';
+
+  // Map 常用方法
+  // 遍历
+  profile.forEach((key, value) {
+    print('$key: $value');
+  });
+
+  profile.map((key, value) {
+    return MapEntry(key, value);
+  });
+
+  for (var key in profile.keys) {
+    print(key);
+    print(profile[key]);
+    print('$key: ${profile[key]}');
+  }
 }
 
 ```
