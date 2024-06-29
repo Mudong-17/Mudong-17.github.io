@@ -11,6 +11,9 @@ author:
 prev:
   text: "使用FVM管理Flutter版本"
   link: "/Notes/Flutter/fvm"
+next:
+  text: "Dart 基础语法"
+  link: "/Notes/Flutter/dart"
 ---
 
 ## 使用 Android Studio 技巧
