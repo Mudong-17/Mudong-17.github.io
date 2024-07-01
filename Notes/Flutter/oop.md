@@ -52,6 +52,18 @@ class Student extends Person {
   super(name, age) {
     // 构造方法 方法体 非必需
   }
+  // 可以为私有字段设置getter来让外界获取到私有字段
+  String get school => _school;
+  // 可以为私有字段设置setter来控制外界对私有字段的修改
+  set school(String value) {
+    _school = value
+  }
+
+  // 静态方法
+  // 使用 static 关键字来实现类级别的变量和方法,
+  static doPrint(String str) {
+    print('doPrint: $str');
+  }
 
   // 命名构造方法：[类名.方法名]
   // 使用命名构造方法为类实现多个构造方法
@@ -84,10 +96,57 @@ class Logger {
   }
 }
 
+
+
 ```
 
-## 类
+## 抽象类和方法
 
-## 抽象
+```dart
+// 抽象类
+// 使用 abstract 关键字来定义一个抽象类
+// 抽象类在定义接口的时候非常有用，实际上抽象类是不能被实例化的，只能被继承
+abstract class Study {
+  void study();
+}
+// 继承抽象类
+// 使用 extends 关键字来继承一个抽象类
+// 一个类只能继承一个抽象类，而一个类可以实现多个接口
+class studyFlutter extends Study {
+  @override
+  void study() {
+    print('学习Flutter');
+  }
+}
+
+```
 
 ## mixins
+
+```dart
+// mixins
+// mixins 是在多个类层次结构中重用代码的一种方式
+// 使用 with 关键字后面跟上一个或多个 mixin 的名字来实现
+// mixins 的特征：
+// 1. 作为 mixin 的类只能继承自 Object，不能继承其他类
+// 2. 作为 mixin 的类不能有构造方法
+// 3. 一个类可以 mixin 多个 mixin 类
+// 4. mixin 类不能有超类
+// 5. 使用关键字 with 进行混入
+class A {
+  String info = 'this is A';
+  void printA() {
+    print('A');
+  }
+}
+
+class B {
+  void printB() {
+    print('B');
+  }
+}
+
+class C with A, B {
+}
+
+```
