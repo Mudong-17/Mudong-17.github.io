@@ -3,7 +3,7 @@ title: Life
 description: 生活中的困难就像垂钓时的浪潮，坚定的信念才能驾驭风浪，迎接阳光。
 categories: Life
 date: 2024-06-26
-cover: https://qiniu.onion17.com/images/2024/06/28/02-33-53-7de293d3c6c79fed82f3c928727f1bf5.webp
+cover: https://r2-blog.mudong17.com/2024/09/bb45b509f150ef2e893da617381bdc69.jfif
 author:
   name: 暮冬拾柒
   avatar: https://s2.loli.net/2024/06/26/hpinJ6Fb9UIZTCA.jpg

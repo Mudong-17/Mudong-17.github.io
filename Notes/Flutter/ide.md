@@ -4,7 +4,7 @@ description:
 categories: Note
 date: 2024-06-28
 tags: ["Flutter", "IDE"]
-cover: https://qiniu.onion17.com/images/2024/06/26/04-38-45-6f61827dc31bea579799ee4961308bf7.png
+cover: https://r2-blog.mudong17.com/2024/09/d7e011554cba7d36902302e11dcc609c.jfif
 author:
   name: 暮冬拾柒
   avatar: https://s2.loli.net/2024/06/26/hpinJ6Fb9UIZTCA.jpg

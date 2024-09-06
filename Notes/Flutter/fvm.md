@@ -4,7 +4,7 @@ description: 使用FVM管理Flutter版本，可以方便的切换不同的Flutte
 categories: Note
 date: 2024-06-26
 tags: ["Flutter", "FVM"]
-cover: https://qiniu.onion17.com/images/2024/06/26/04-38-45-6f61827dc31bea579799ee4961308bf7.png
+cover: https://r2-blog.mudong17.com/2024/09/6fb066fc3081f917b58719ba8a081f90.jfif
 author:
   name: 暮冬拾柒
   avatar: https://s2.loli.net/2024/06/26/hpinJ6Fb9UIZTCA.jpg

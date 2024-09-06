@@ -4,7 +4,7 @@ description: 最最基础的Dart语法，包括变量、数据类型、运算符
 categories: Note
 date: 2024-06-29
 tags: ["Flutter", "Dart"]
-cover: https://qiniu.onion17.com/images/2024/06/29/13-51-03-f762c5a46736a7ceda97daf9639a5bdc.jpg
+cover: https://r2-blog.mudong17.com/2024/09/685e1ee8c631f6c8e47f3e239e9a1d6e.jfif
 author:
   name: 暮冬拾柒
   avatar: https://s2.loli.net/2024/06/26/hpinJ6Fb9UIZTCA.jpg
